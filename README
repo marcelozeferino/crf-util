@@ -1,0 +1,26 @@
+
+
+======================================================
+ Projeto CRFUtil Java
+======================================================
+
+ Este projeto surgiu de um dos projetos de desenvolvimento em sistemas
+ para trabalho com Case Report Forms (CRF), utilizando dupla verifciação
+ de entradas (geralmente feita por digitadores) como processo principal
+ de audioria.
+ 
+ A foi criada e melhorada durante o projeto, visando criar-se um framework
+ para auxiliar nas tarefas comuns.
+ 
+ A principal funcionalidade é a comparação de objetos em Java, retornando uma 
+ lista de divergências (incluindo campos e seus preenchimentos).
+ 
+ A utilização de Reflection e outras técnicas permite que possamos passar
+ qualquer tipo de objeto (de uma interface específica) e recebermos o retorno 
+ com as divergências.
+ 
+ Os softwares anteriores (em outras linguagens) precisavam comparar atributo 
+ por atributo e a utilização desta biblioteca gerou um grande ganho na produtividade.
+ 
+ Marcelo Zeferino
+ Contribuidor: Pattrick Müller (http://br.linkedin.com/in/pattrickmiller)
